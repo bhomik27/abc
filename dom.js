@@ -38,3 +38,15 @@ console.log(items[1]);
 items[1].textContent = 'Hello 2';
 items[1].style.fontWeight = 'bold';
 items[1].style.backgroundColor = 'yellow';
+
+
+
+//added features 2
+
+items[2].style.backgroundColor = 'green';
+
+items[0].style.fontWeight = 'bold';
+items[1].style.fontWeight = 'bold';
+items[2].style.fontWeight = 'bold';
+items[3].style.fontWeight = 'bold';
+
