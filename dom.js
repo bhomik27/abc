@@ -30,23 +30,52 @@
 
 // GETELEMENTSBYCLASSNAME //
 
+// let items = document.getElementsByClassName('list-group-item');
+// console.log(items);
+
+// //added features
+// console.log(items[1]);
+// items[1].textContent = 'Hello 2';
+// items[1].style.fontWeight = 'bold';
+// items[1].style.backgroundColor = 'yellow';
+
+
+
+// //added features 2
+
+// items[2].style.backgroundColor = 'green';
+
+// for (let i = 0; i < items.length; i++){
+//     items[i].style.fontWeight = 'bold';
+// }
+
+
+//  GETELEMENTBYTAGNAME   //
+
+
+// let li = document.getElementsByTagName('li');
+// console.log(items);
+
+// //added features
+// console.log(li[1]);
+// li[1].textContent = 'Hello 2';
+// li[1].style.fontWeight = 'bold';
+// li[1].style.backgroundColor = 'yellow';
+
+
+
+// //added features 2
+
+// li[2].style.backgroundColor = 'green';
+
+// for (let i = 0; i < li.length; i++){
+//     li[i].style.fontWeight = 'bold';
+// }
+
 let items = document.getElementsByClassName('list-group-item');
-console.log(items);
 
-//added features
-console.log(items[1]);
-items[1].textContent = 'Hello 2';
-items[1].style.fontWeight = 'bold';
-items[1].style.backgroundColor = 'yellow';
+items[4].style.backgroundColor = 'green';
 
+let itemTag = document.getElementsByTagName('li');
 
-
-//added features 2
-
-items[2].style.backgroundColor = 'green';
-
-items[0].style.fontWeight = 'bold';
-items[1].style.fontWeight = 'bold';
-items[2].style.fontWeight = 'bold';
-items[3].style.fontWeight = 'bold';
-
+itemTag[4].style.fontWeight = 'bold';
